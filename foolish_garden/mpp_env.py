@@ -29,7 +29,7 @@ class MonPetitPotagerEnv(Env):
     def __init__(self, targets: List[int]):
         super(MonPetitPotagerEnv, self).__init__()
 
-        self.n_x, self.n_y = 100, 100
+        self.n_x, self.n_y = 10, 10
         self.n_veggies = len(VEGGIES)
 
         assert self.n_veggies > 1
